@@ -2,22 +2,29 @@
 
 ## 基本情報
 
-|key|value|
-|---|---|
-|氏名||
-|生年月日||
-|Twitter||
-|Qiita||
-|note||
-|Zenn||
-|SpeakerDeck||
+| key      | value                             |
+| -------- | --------------------------------- |
+| 氏名     | 小島 魁斗（Kojima Kaito）         |
+| 生年月日 | 1998/04/08                        |
+| 居住地   | 神奈川県                          |
+| 最終学歴 | 横浜デジタルアーツ専門学校 Web 科 |
+
+---
+
+## 各種アカウント
+
+<p>
+<a href="https://github.com/kkojimawk" target="_blank"><img alt="Github" src="https://img.shields.io/badge/kkojimawk-%2312100E.svg?&style=flat-square&logo=Github&logoColor=white" /></a>
+</p>
 
 ---
 
 ## 保有スキル
 
-- 
-
+- JavaScript / TypeScript × React でのフロントエンド開発・設計
+- レガシーコードからモダンなフロントエンドへのリファクタリング
+- Web 制作のコーディング
+- WordPress 組み込み
 
 ---
 
@@ -25,24 +32,170 @@
 
 ### 言語
 
-- 
+<p>
+  <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
+  <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white" />
+</p>
 
 ### フレームワーク・その他
 
-- 
+<p>
+  <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
+  <img alt="Vue" src="https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=Vue.js&logoColor=white" />
+  <img alt="Apollo" src="https://img.shields.io/badge/-Apollo%20GraphQL-311C87?style=flat-square&logo=apollo-graphql&logoColor=white" />
+  <img alt="GraphQL" src="https://img.shields.io/badge/-GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white" />
+  <img alt="Firebase" src="https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=Firebase&logoColor=white" />
+  <img alt="Vite" src="https://img.shields.io/badge/-Vite-646CFF?style=flat-square&logo=Vite&logoColor=white" />
+  <img alt="Docker" src="https://img.shields.io/badge/-Docker-46a2f1?style=flat-square&logo=docker&logoColor=white" />
+</p>
 
 ---
 
 ## 職務経歴詳細
 
-### A株式会社（2020/04〜現在）
+- Web 系の専門学校を卒業後、受託開発の Web 制作/開発会社にフロントエンドエンジニアとして入社し現在 4 年目となります。
+- 主に詳細設計から開発、テストまでを担当し、チームで連携して開発してきました。
+- React や Vue.js などのモダンなフレームワークを使用した開発経験があります。
+- ウォーターホールやアジャイル、スクラム開発などの経験があります。
+- ディレクター兼フロントエンドとして小規模案件に参画し、プロジェクトの進捗管理や実装の経験があります。
+- 新卒入社メンバー 2 名のメンター経験があります。
 
-- 
+### 道路状況可視化 Web サービス開発（2022/08〜現在）
 
-### B株式会社（2015/04〜2020/03）
+- **プロジェクト概要：**
+  - 雪国の道路状況を Web 上の Map でリアルタイムに確認ができる行政が使用する Web アプリケーション開発
+- **プロジェクト規模：**
+  - 8 人チームでのスクラム開発
+- **役割：**
+  - 設計、フロント実装、レビュー
+- **プロジェクト詳細：**
+  - React での SPA 開発
+  - HereMapsAPI の Map を使用した Web アプリケーション
+  - jQuery で作成された既存の Web アプリを React に移行
+  - 時系列ギャラリーなどの機能追加
+  - 道路損傷検知画面の追加
+  - 状態管理は jotai 使用
+- **その他：**
+  - フロントエンド技術選定
+  - ディレクトリ構成や、パフォーマンス向上に拘りました
 
-- 
+### 医療業界　動物病院予約システム開発（2022/11〜2023/02）
+
+- **プロジェクト概要：**
+  - 動物病院と飼い主が使用する予約やスタッフ管理システムの Web アプリケーション開発
+  - 病院側:
+    - 病院のオーナーがログインしスタッフの出勤スケジュールやスタッフの予約状況などを確認や変更できるシステム
+  - 飼い主側:
+    - スマホのブラウザから病院の予約や確認が行えます
+- **プロジェクト規模：**
+  - 6 人チームで開発
+- **役割：**
+  - 設計、フロント実装
+- **プロジェクト詳細：**
+  - React + TypeScript での SPA 開発
+  - GraphQL で API データ連携 クライアントは Urql
+  - codegen で GraphQL スキーマ自動生成
+  - 状態管理は context と Zustand を使用
+  - デザインがなく、自分で画面仕様書を汲み取って設計
+
+### 健康コラム作成（2022/01〜2022/09）
+
+Nuxt.js のディレクトリにコラムを追加（コーディング）
+
+### LP 作成（複数）（2019/04〜現在）
+
+キャンペーン LP などのコーディングを担当しました
+FLOCSS の CSS 設計を使用して実装しています
+ディレクション兼コーダーとして参画したプロジェクトもあります
+
+### 観光協会サイト制作（2020/12〜2022/08）
+
+- **プロジェクト概要：**
+  - 観光協会のサイト制作
+    - 協会の紹介、お問合せ、加盟施設の紹介
+- **プロジェクト規模：**
+  - 3 人
+- **役割：**
+  - フロント開発・保守運用
+- **プロジェクト詳細：**
+  - デザイナーが作成した XD を元にコーディング
+  - React を使用し、加盟施設の紹介ページの絞り込み機能や、動的表示の実装を行いました
+
+### ガソリンスタンド検索サイト（2020/10〜現在）
+
+- **プロジェクト概要：**
+  - ガソリンスタンドのギフト券のサイト開発
+    - 検索機能、申込機能、お問合せ機能等
+- **プロジェクト規模：**
+  - 4 人
+- **役割：**
+  - フロント開発・保守運用
+- **プロジェクト詳細：**
+  - デザイナーが作成した XD を元にコーディング
+  - フロントは HTML/CSS と jQuery のみで Laravel のテンプレートに組み込んで作成
+  - 現在も保守運用で毎月稼働あり
+
+### デジタル能書コンテンツ作成（2020/10〜現在）
+
+- **プロジェクト概要：**
+  - 化粧品の説明書を紙の代わりに QR コードを発行し、Web で見られるようにするプロジェクト
+- **役割：**
+  - コーディング・保守運用
+- **プロジェクト詳細：**
+  - 1 商品につき 9 言語分のファイルを量産し、現在までに 2000 ファイルほど量産しました。
+
+### 法人検索サイト（2019/12〜2020/03）
+
+- **プロジェクト概要：**
+  - 法人情報を検索できる Web アプリケーション開発
+- **プロジェクト規模：**
+  - 8 人
+- **役割：**
+  - コーディング・保守運用
+- **プロジェクト詳細：**
+  - デザイナーが作成した XD を元にコーディング
+  - Go 言語の Ace テンプレートを使用し実装
+
+### ワインスクールサイトの更新（2019/08〜現在）
+
+- **プロジェクト概要：**
+  - HP 運用・更新業務・LP 制作 等
+- **役割：**
+  - コーディング・保守運用
+
+### 脳年齢測定 Web アプリケーション開発（2019/04〜2019/12）
+
+- **プロジェクト概要：**
+
+  - 脳年齢測定 Web アプリケーション開発
+    - PC、タブレット、SP から使用できる月額課金の会員制 Web アプリ
+    - 5 種類の問題を解き、その結果に応じて脳年齢を測定し、脳の状態を分析できる
+
+- **役割：**
+  - フロント開発・保守運用
+- **プロジェクト詳細：**
+  - 問題画面から結果画面までは Vue.js を使用した SPA
+  - 上長のフロントエンドエンジニアと 2 人でフロントを開発
+  - LP の作成から Web アプリ開発までフロント全て担当
+
+---
 
 ## 業務外活動
 
-- 
+Udemy などの動画教材や書籍で Web 開発の情報収集
+Web 開発特化の有料オンラインサロンに加入し情報収集
+
+### 副業
+
+- **フリーランスマッチングサイト開発**
+  - 担当：フロント開発
+  - 使用技術：TypeScript, React, GraphQL
+  - クラウドソーシング経由で受注。
+
+---
+
+## 意欲・興味
+
+## 希望条件
+
+- フルリモートワークでの勤務を希望します
