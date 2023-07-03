@@ -24,8 +24,9 @@
 - JavaScript / TypeScript × React でのフロントエンド開発・設計
 - React の UI コンポーネントライブラリである MaterialUI や Mantine を使用した UI 実装
 - CSS フレームワークである Tailwind CSS を使用した、ユーティリティファーストな UI 実装
-- レガシーコードからモダンなフロントエンドへのリファクタリング
+- レガシーコードからモダンフロントエンドへのリファクタリング
 - Web 制作の HTML/CSS/JavaScript/jQuery コーディング
+- BEM や FLOCSS の CSS 設計を用いたコーディング
 - WordPress 組み込み
 
 ---
@@ -35,28 +36,30 @@
 ### 言語
 
 <p>
-  <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
-  <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white" />
+  HTML<br>
+  CSS<br>
+  JavaScript<br>
+  TypeScript<br>
 </p>
 
 ### フレームワーク・その他
 
 <p>
-  <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
-  <img alt="Vue" src="https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=Vue.js&logoColor=white" />
-  <img alt="Apollo" src="https://img.shields.io/badge/-Apollo%20GraphQL-311C87?style=flat-square&logo=apollo-graphql&logoColor=white" />
-  <img alt="GraphQL" src="https://img.shields.io/badge/-GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white" />
-  <img alt="Vite" src="https://img.shields.io/badge/-Vite-646CFF?style=flat-square&logo=Vite&logoColor=white" />
+  React<br>
+  Next.js<br>
+  GraphQL<br>
+  Vite<br>
+  WordPress
 </p>
 
 ---
 
 ## 職務経歴詳細
 
-- Web 系の専門学校でプログラミングを学び、新卒で受託開発の Web 制作企業にフロントエンドエンジニアとして入社して 4 年目となります。
-- 実務では React や Vue.js などのモダンなフレームワークを使用しており、主に詳細設計から開発、テストまでを担当しています。
-- ウォーターフォールやアジャイル、スクラム開発といった開発手法を経験し、その中でチームで連携して開発することの重要性を学びました。
-- エンジニアリングだけでなく、ディレクターとしてプロジェクトの進捗管理や実装の経験があるほか、新卒 2 名のメンターも務めました。
+- Web 系の専門学校でプログラミングを学び、新卒で受託開発の Web 制作企業にフロントエンドエンジニアとして入社し 5 年目となります
+- 実務では React や Vue.js などのモダンなフレームワークを使用しており、主に詳細設計から開発、テストまでを担当しています
+- ウォーターフォールやスクラム開発といった開発手法を経験し、その中でチームで連携して開発することの重要性を学びました
+- エンジニアリングだけでなく、ディレクターとしてプロジェクトの進捗管理や実装の経験があるほか、新卒 2 名のメンターも務めました
 
 ### 道路状況可視化 Web サービス開発（2022/08〜現在）
 
@@ -67,26 +70,27 @@
 - **役割：**
   - 設計、フロント実装、レビュー
 - **プロジェクト詳細：**
+  - 2 週間スプリントでのスクラム開発
   - React での SPA 開発
   - HereMapsAPI の Map を使用した Web アプリケーション
-  - jQuery で作成された既存の Web アプリを React に移行
+  - フェーズ 1 で jQuery で作成された既存の Web アプリケーションを フェーズ 2 で React×TypeScript にリプレイス
   - 時系列ギャラリーなどの機能追加
   - 道路損傷検知画面の追加
   - 状態管理は jotai 使用
+  - テストコード追加予定
 - **その他：**
   - フロントエンド技術選定を行いました
   - フロントエンドとバックエンドと協議し、API リクエストパラメーターやレスポンスのデータ構造を決定しました
-  - Atomic Design を参考に、開発しやすいディレクトリ構成やコンポーネント分割にこだわりました
-  - パフォーマンス向上に拘りました
-    - 具体的には Map 上に大量の Plot（最大 15000 件）が表示される為、動作が重くなりがちですが、キャッシュや画像の LazyLoad などを活用したり、画面操作時の不要なレンダリングを制御するなど、極力快適に動作できるようパフォーマンスチューニングを行いました
+  - Prettier, ESLint を導入し、静的検証、スタイル統一をしました
+  - 技術記事を参考に、開発しやすいディレクトリ構成やコンポーネント分割にこだわりました
 
 ### 医療業界　動物病院予約システム開発（2022/11〜2023/02）
 
 - **プロジェクト概要：**
   - 動物病院と飼い主が使用する予約やスタッフ管理システムの Web アプリケーション開発
-  - 病院側:
+  - 病院側：
     - 病院のオーナーがログインしスタッフの出勤スケジュールやスタッフの予約状況などを確認や変更できるシステム
-  - 飼い主側:
+  - 飼い主側：
     - スマホのブラウザから病院の予約や確認が行えます
 - **プロジェクト規模：**
   - 6 人チームで開発
@@ -102,12 +106,6 @@
 ### 健康コラム作成（2022/01〜2022/09）
 
 Nuxt.js のディレクトリにコラムを追加（コーディング）
-
-### LP 作成（複数）（2019/04〜現在）
-
-- 大手化粧品会社など様々なクライアントの LP を作成しました（コーディング担当）
-- BEM や FLOCSS の CSS 設計を使用して実装しています
-- ディレクション兼コーダーとして参画したプロジェクトもあります
 
 ### 観光協会サイト制作（2020/12〜2022/08）
 
@@ -133,7 +131,7 @@ Nuxt.js のディレクトリにコラムを追加（コーディング）
   - フロント開発・保守運用
 - **プロジェクト詳細：**
   - デザイナーが作成した XD を元にコーディング
-  - フロントは HTML/CSS と jQuery のみで Laravel のテンプレートに組み込んで作成
+  - フロントは HTML/CSS と JavaScript で Laravel の blade テンプレートに組み込んで作成
   - 現在も保守運用で毎月稼働あり
 
 ### デジタル能書コンテンツ作成（2020/10〜現在）
@@ -165,6 +163,7 @@ Nuxt.js のディレクトリにコラムを追加（コーディング）
   - コーディング・保守運用
 - **プロジェクト詳細：**
   - SEO を意識した HP や LP のコーディング
+  - 画像は webp を使用
 
 ### 脳年齢測定 Web アプリケーション開発（2019/04〜2019/12）
 
@@ -181,18 +180,26 @@ Nuxt.js のディレクトリにコラムを追加（コーディング）
   - 上長のフロントエンドエンジニアと 2 人でフロントを開発
   - LP の作成から Web アプリ開発までフロント全て担当
 
+### LP 作成（複数）（2019/04〜現在）
+
+- 大手化粧品会社など様々なクライアントの LP を作成しました（コーディング担当）
+- BEM や FLOCSS の CSS 設計を使用して実装しています
+- Gulp や Webpack などのタスクランナーを使用
+- ディレクション兼コーダーとして参画したプロジェクトもあります
+
 ---
 
 ## 業務外活動
 
-- Udemy などの動画教材や書籍で Web 開発の情報収集
-- Web 開発特化の有料オンラインサロンに加入し情報収集
+- Udemy などの動画教材や書籍で Web 開発のキャッチアップ
+- Web 開発特化の有料オンラインサロンに加入しキャッチアップ
+  - 直近では Next.js(v13)×TypeScript/Express にて Web アプリケーションのチーム開発を行なっています
 
 ### 副業
 
 - **フリーランスマッチングサイト開発**
   - 担当：フロント開発
   - 使用技術：TypeScript, React, GraphQL
-  - クラウドソーシング経由で受注。
+  - クラウドソーシング経由で受注
 
 ---
